@@ -1,0 +1,22 @@
+@mixin border-radius($val){
+   -webkit-border-radius: $val;
+   -moz-border-radius: $val;
+   -ms-border-radius: $val;
+   -o-border-radius: $val;
+   border-radius: $val;
+}
+
+@mixin filter($filter-type,$filter-amount) { 
+  -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+  -moz-filter: $filter-type+unquote('(#{$filter-amount})');
+  -ms-filter: $filter-type+unquote('(#{$filter-amount})');
+  -o-filter: $filter-type+unquote('(#{$filter-amount})');
+  filter: $filter-type+unquote('(#{$filter-amount})');
+}
+
+
+@mixin bp($point) {
+  @media (max-width: $point) { 
+    @content; 
+  }
+}

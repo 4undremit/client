@@ -1,0 +1,29 @@
+@import 'variables';
+footer {
+   background-color: $snow-color;
+   padding: 4rem 0 1rem;
+   h4 {
+      font-size: 1.2rem;
+      color: $priamry-heading-color;
+      margin-bottom: 1.5rem;
+   }
+   ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+   & li {
+         margin-bottom: 1rem;
+         & p,
+         & a {
+            font-size: 0.9rem; 
+         }
+      }
+   p {
+    margin: 0;
+    font-size: .8rem;
+   }
+   & a:hover {
+      text-decoration: none;
+   }
+}

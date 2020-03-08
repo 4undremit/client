@@ -1,0 +1,38 @@
+/*--- Fonts ---*/
+@font-face {font-family: "Diodrum Medium";
+  src: url("src/assets/fonts/Diodrum/DiodrumMedium.eot"); /* IE9*/
+  src: url("src/assets/fonts/Diodrum/DiodrumMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("src/assets/fonts/Diodrum/DiodrumMedium.woff2") format("woff2"), /* chrome、firefox */
+  url("src/assets/fonts/Diodrum/DiodrumMedium.woff") format("woff"), /* chrome、firefox */
+  url("src/assets/fonts/Diodrum/DiodrumMedium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("src/assets/fonts/Diodrum/DiodrumMedium.svg#Diodrum-Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Diodrum Bold";
+  src: url("src/assets/fonts/Diodrum/DiodrumBold.eot"); /* IE9*/
+  src: url("src/assets/fonts/Diodrum/DiodrumBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("src/assets/fonts/Diodrum/DiodrumBold.woff2") format("woff2"), /* chrome、firefox */
+  url("src/assets/fonts/Diodrum/DiodrumBold.woff") format("woff"), /* chrome、firefox */
+  url("src/assets/fonts/Diodrum/DiodrumBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("src/assets/fonts/Diodrum/DiodrumBold.svg#Diodrum-Bold") format("svg"); /* iOS 4.1- */
+}
+
+$primary-color: #000;
+$primary-font-family: "Diodrum Medium";
+$secondary-font-family: "Diodrum Bold";
+$default-font-size: 1rem;
+$primary-button-color: #3d35a1;
+$secondary-button-color: #9400ff;
+$priamry-heading-color: #3d35a1;
+$light-skyblue-color: #f7faff;
+$white-color: #ffffff; 
+$black-color: #000000; 
+$snow-color: #f9f9f9;
+$grey-color: rgba(0,0,0, 0.7);
+
+$mobile-portrait-width: 480px;
+$mobile-landscape-width: 640px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$laptop-width-sm: 1280px;
+$laptop-width: 1366px;

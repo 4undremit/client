@@ -1,0 +1,67 @@
+@import 'variables';
+@import 'mixins';
+
+.main-section {
+    position: relative;
+    & .img-section {
+      background: url('../../assets/images/happy-customer.png') no-repeat transparent;
+      background-size: cover;
+      width: 100%;
+      height: 583px;
+      transform: translate3d(40px, -40px, 0px);
+      z-index: -1;
+      position: relative;
+   }
+}
+.cards-section {
+   background-color: $light-skyblue-color;
+   padding: 4rem 0;
+}
+.tiles-section {
+   padding: 4rem 0;
+   background: url('../../assets/images/shader-lblue.svg') no-repeat $primary-button-color;
+   background-position: center top;
+   h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+   }
+}
+.get-app-section {
+   padding: 4rem 0;
+   background: url('../../assets/images/shader-purple.svg') no-repeat transparent;
+   background-position: center top;
+   text-align: center;
+   h2, & p {
+      color: #ffffff;
+      margin-bottom: 1rem;
+   }
+   & .container {
+      position: relative;
+      height: 500px;
+      margin-top: 2rem;
+      @include border-radius(10px);
+      &::after {
+         content: '';
+         background: url('../../assets/images/doing-transfer.jpg') no-repeat;
+         background-size: cover;
+         background-position: center center;
+         position: absolute;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         z-index: -1;
+         @include filter(brightness, 65%);
+         @include border-radius(10px);
+      }
+      
+   }
+   a {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 2rem;   
+   }
+}
+.get-in-touch-section {
+   padding: 4rem 0;
+}

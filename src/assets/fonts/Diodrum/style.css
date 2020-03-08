@@ -1,0 +1,17 @@
+@font-face {font-family: "Diodrum Medium";
+  src: url("DiodrumMedium.eot"); /* IE9*/
+  src: url("DiodrumMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("DiodrumMedium.woff2") format("woff2"), /* chrome、firefox */
+  url("DiodrumMedium.woff") format("woff"), /* chrome、firefox */
+  url("DiodrumMedium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("DiodrumMedium.svg#Diodrum-Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Diodrum Bold";
+  src: url("DiodrumBold.eot"); /* IE9*/
+  src: url("DiodrumBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("DiodrumBold.woff2") format("woff2"), /* chrome、firefox */
+  url("DiodrumBold.woff") format("woff"), /* chrome、firefox */
+  url("DiodrumBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("DiodrumBold.svg#Diodrum-Bold") format("svg"); /* iOS 4.1- */
+}
